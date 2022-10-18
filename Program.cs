@@ -11,41 +11,67 @@ Console.WriteLine("Hello! This is a Mad Lib generation program. Let's create a M
 
 //while loop for repeating story generation.
 bool repeatProgram = true;
+
+//variables to hold madlib word inputs
+string name1 = "";
+string verb1 = "";
+string sport1 = "";
+string musicGenre1 = "";
+string pet1 = "";
+string petName1 = "";
+string name2 = "";
+string verb2 = "";
+string hobby1 = "";
+string musicGenre2 = "";
+
+//array to hold game text instructions for the player
+string[] gameText = {
+    "\nPlease give me a person's name: ",
+    "\nGreat. Now give me a verb. A verb is an action like 'dance' or 'run': ",
+    "\nNow, write the name of an athletic sport: ",
+    "\nNow give me the name of a musical genre: ",
+    "\nExcellent. Now tell me the name of a type of animal: ",
+    "\nOkay. Now give me a second name: ",
+    "\nNow, give me the name of a third person: ",
+    "\nNow give me a second verb: ",
+    "\nWonderful! We're almost there. Now, give me the name of a hobby: ",
+    "\nGreat. Now, give me the name of a second musical genre: "
+};
+
+//custom method for taking in player inputs to populate madlib story
+string PopulateWords(string wordPass, string textPass) {
+    Console.Write(textPass);
+    while (wordPass == ""){
+        wordPass = Console.ReadLine();
+    }
+    return wordPass;
+}
+
+//while loop beginning for replay purposes
 while (repeatProgram == true) {
     
     //Begin soliciting words to fill in the blanks of the Mad Lib. Declare variables along the way.
-    Console.Write("\nPlease give me a person's name: ");
-    string name1 = Console.ReadLine();
+    name1 = PopulateWords(name1, gameText[0]);
+    
+    verb1 = PopulateWords(verb1, gameText[1]);
 
-    Console.Write("\nGreat. Now give me a verb. A verb is an action like 'dance' or 'run': ");
-    string verb1 = Console.ReadLine();
+    sport1 = PopulateWords(sport1, gameText[2]);
 
-    Console.Write("\nNow, write the name of an athletic sport: ");
-    string sport1 = Console.ReadLine();
+    musicGenre1 = PopulateWords(musicGenre1, gameText[3]);
 
-    Console.Write("\nNow give me the name of a musical genre: ");
-    string musicGenre1 = Console.ReadLine();
+    pet1 = PopulateWords(pet1, gameText[4]);
 
-    Console.Write("\nExcellent. Now tell me the name of a type of animal: ");
-    string pet1 = Console.ReadLine();
+    petName1 = PopulateWords(petName1, gameText[5]);
 
-    Console.Write("\nOkay. Now give me a second name: ");
-    string petName1 = Console.ReadLine();
+    name2 = PopulateWords(name2, gameText[6]);
 
-    Console.Write("\nNow, give me the name of a third person: ");
-    string name2 = Console.ReadLine();
+    verb2 = PopulateWords(verb2, gameText[7]);
 
-    Console.Write("\nNow give me a second verb: ");
-    string verb2 = Console.ReadLine();
+    hobby1 = PopulateWords(hobby1, gameText[8]);
 
-    Console.Write("\nWonderful! We're almost there. Now, give me the name of a hobby: ");
-    string hobby1 = Console.ReadLine();
-
-    Console.Write("\nGreat. Now, give me the name of a second musical genre: ");
-    string musicGenre2 = Console.ReadLine();
+    musicGenre2 = PopulateWords(musicGenre2, gameText[9]);
 
     Console.Write("\nThank you. That's all! Here is the story you helped to write: \n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-
 
     //Output Mad Lib story with words integrated.
     Console.WriteLine($"This is the story of {name1}. {name1} was a simple person who enjoyed simple things. They liked to {verb1}, play {sport1}, and sing {musicGenre1} in the shower. Life was good. \n\nBut then one day, {name1} met a strange person while walking their {pet1}, {petName1}. Their name was {name2}. They were a new neighbor of {name1}'s and {name1} thought them quite peculiar.\n\nBecause instead of liking to {verb1}, they liked to {verb2} instead. Instead of playing {sport1}, or really any kind of sports, {name2} was an enjoyer of {hobby1}. And instead of {musicGenre1} they liked {musicGenre2}!? \n\n{name1} could not fathom such a bizarre person. \n\nBut that's because {name1} was a person lacking in empathy and had a narrow worldview. So {name1} subconsciously avoided {name2} in order to avoid the terrible cognitive dissonance in his head. Never realizing that {name2} was secretly their long lost sibling! Gasp! How tragic.\n\nThe End.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
