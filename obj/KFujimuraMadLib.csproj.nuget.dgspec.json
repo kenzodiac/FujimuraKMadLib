@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kennethfujimura/Documents/Code Stack Projects/Level 1 Front End Developemnt/Homework/KFujimuraGitHubChallenge/KFujimuraMadLib/KFujimuraMadLib.csproj": {}
+    "/Users/aishamashrah/Documents/repository /FujimuraKMadLib/KFujimuraMadLib.csproj": {}
   },
   "projects": {
-    "/Users/kennethfujimura/Documents/Code Stack Projects/Level 1 Front End Developemnt/Homework/KFujimuraGitHubChallenge/KFujimuraMadLib/KFujimuraMadLib.csproj": {
+    "/Users/aishamashrah/Documents/repository /FujimuraKMadLib/KFujimuraMadLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kennethfujimura/Documents/Code Stack Projects/Level 1 Front End Developemnt/Homework/KFujimuraGitHubChallenge/KFujimuraMadLib/KFujimuraMadLib.csproj",
+        "projectUniqueName": "/Users/aishamashrah/Documents/repository /FujimuraKMadLib/KFujimuraMadLib.csproj",
         "projectName": "KFujimuraMadLib",
-        "projectPath": "/Users/kennethfujimura/Documents/Code Stack Projects/Level 1 Front End Developemnt/Homework/KFujimuraGitHubChallenge/KFujimuraMadLib/KFujimuraMadLib.csproj",
-        "packagesPath": "/Users/kennethfujimura/.nuget/packages/",
-        "outputPath": "/Users/kennethfujimura/Documents/Code Stack Projects/Level 1 Front End Developemnt/Homework/KFujimuraGitHubChallenge/KFujimuraMadLib/obj/",
+        "projectPath": "/Users/aishamashrah/Documents/repository /FujimuraKMadLib/KFujimuraMadLib.csproj",
+        "packagesPath": "/Users/aishamashrah/.nuget/packages/",
+        "outputPath": "/Users/aishamashrah/Documents/repository /FujimuraKMadLib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kennethfujimura/.nuget/NuGet/NuGet.Config"
+          "/Users/aishamashrah/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

@@ -13,3 +13,18 @@
 /Users/kennethfujimura/Documents/Code Stack Projects/Level 1 Front End Developemnt/Homework/KFujimuraGitHubChallenge/KFujimuraMadLib/obj/Debug/net6.0/KFujimuraMadLib.pdb
 /Users/kennethfujimura/Documents/Code Stack Projects/Level 1 Front End Developemnt/Homework/KFujimuraGitHubChallenge/KFujimuraMadLib/obj/Debug/net6.0/KFujimuraMadLib.genruntimeconfig.cache
 /Users/kennethfujimura/Documents/Code Stack Projects/Level 1 Front End Developemnt/Homework/KFujimuraGitHubChallenge/KFujimuraMadLib/obj/Debug/net6.0/ref/KFujimuraMadLib.dll
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/bin/Debug/net6.0/KFujimuraMadLib
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/bin/Debug/net6.0/KFujimuraMadLib.deps.json
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/bin/Debug/net6.0/KFujimuraMadLib.runtimeconfig.json
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/bin/Debug/net6.0/KFujimuraMadLib.dll
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/bin/Debug/net6.0/KFujimuraMadLib.pdb
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/obj/Debug/net6.0/KFujimuraMadLib.csproj.AssemblyReference.cache
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/obj/Debug/net6.0/KFujimuraMadLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/obj/Debug/net6.0/KFujimuraMadLib.AssemblyInfoInputs.cache
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/obj/Debug/net6.0/KFujimuraMadLib.AssemblyInfo.cs
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/obj/Debug/net6.0/KFujimuraMadLib.csproj.CoreCompileInputs.cache
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/obj/Debug/net6.0/KFujimuraMadLib.dll
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/obj/Debug/net6.0/refint/KFujimuraMadLib.dll
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/obj/Debug/net6.0/KFujimuraMadLib.pdb
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/obj/Debug/net6.0/KFujimuraMadLib.genruntimeconfig.cache
+/Users/aishamashrah/Documents/repository /FujimuraKMadLib/obj/Debug/net6.0/ref/KFujimuraMadLib.dll
